@@ -74,19 +74,17 @@ local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "欢迎使用猫剑脚本"
+msg.Text = "欢迎使用钉脚本"
+msg.Text = "免费！倒卖者我操你妈！！！"
 wait(1.8)
 msg:Destroy()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "作者:猫王 支持60款游戏"
+msg.Text = "作者:你好 支持60款游戏"
 wait(1.8)
 msg:Destroy()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "更新公告"
-wait(3)
-msg:Destroy()
 
 local OrionLib = loadstring(game:HttpGet("https://shz.al/~dito-wooooooooo/Ditoo-ui/I-GOT-NO-TIME-TO-LOSE-RA-TATATA"))()
 local LBLG = Instance.new("ScreenGui", getParent)
@@ -129,7 +127,7 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "猫剑脚本", IntroIcon = "rbxassetid://4335482575", HidePremium = false, SaveConfig = true,IntroText = "猫剑脚本", ConfigFolder = "猫剑脚本"})
+local Window = OrionLib:MakeWindow({Name = "钉脚本", IntroIcon = "rbxassetid://4335482575", HidePremium = false, SaveConfig = true,IntroText = "钉脚本", ConfigFolder = "钉脚本"})
 
 local about = Window:MakeTab({
     Name = "公告",
@@ -138,9 +136,9 @@ local about = Window:MakeTab({
 
 })
 
-about:AddParagraph("作者: 猫王")
-about:AddParagraph("副作者: 小天牛叔小魔阴星")
-about:AddParagraph("制作者: 纳西妲")
+about:AddParagraph("作者: 抄的")
+about:AddParagraph("副作者: 抄的")
+about:AddParagraph("制作者: 抄的")
 
 local Tab = Window:MakeTab({
     Name = "通用功能",
