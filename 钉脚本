@@ -75,12 +75,12 @@ local Mouse = Player:GetMouse()
 
 local msg = Instance.new("Message",workspace)
 msg.Text = "欢迎使用钉脚本"
-msg.Text = "使用剑猫源码"
+msg.Text = "使用猫剑源码"
 wait(1.8)
 msg:Destroy()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "剑猫内核 支持60款游戏"
+msg.Text = "猫剑内核 支持60款游戏"
 wait(1.8)
 msg:Destroy()
 
