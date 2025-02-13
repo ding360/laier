@@ -227,7 +227,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "飞行V3",
+	Name = "钉-飞行",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 	end
@@ -235,7 +235,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "游戏1",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -389,7 +389,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "游戏2",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -494,7 +494,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "游戏3",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -641,7 +641,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "进击的僵尸",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -710,7 +710,7 @@ end
 
 local Tab = Window:MakeTab({
     Name = "透视功能",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -910,7 +910,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("GuardRemotes"):WaitForChild("
 
 local Tab = Window:MakeTab({
     Name = "枪战竞技场",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -924,7 +924,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "扫雪模拟器",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -948,7 +948,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("e8eGb8
 
 local Tab = Window:MakeTab({
     Name = "Race Clicker",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -990,7 +990,7 @@ Tab:AddToggle({
 
 local Tab = Window:MakeTab({
         Name = "地狱之塔",
-        Icon = "rbxassetid://4335482575",
+        Icon = "rbxassetid://78898298300077",
         PremiumOnly = false
 })
 
@@ -1079,7 +1079,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "宠物模拟器99",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1147,7 +1147,7 @@ end
 
 local Tab = Window:MakeTab({
     Name = "战争机器",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1161,7 +1161,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "杀手VS警长",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1381,7 +1381,7 @@ end
 
 local Tab = Window:MakeTab({
     Name = "越狱",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1425,7 +1425,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "灌篮模拟器",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1468,7 +1468,7 @@ Tab:AddToggle({
 
 local Tab = Window:MakeTab({
     Name = "疯狂电梯",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1496,7 +1496,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
     Name = "在披萨店工作",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1510,7 +1510,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "点击一块石头",
-	Icon = "rbxassetid://4335482575",
+	Icon = "rbxassetid://78898298300077",
 	PremiumOnly = false
 })
 
@@ -1542,7 +1542,7 @@ local WorkerToggle = Tab:AddToggle({
 			OrionLib:MakeNotification({
 				Name = "警告！",
 				Content = "员工自动装配始于选定的员工: " .. selectedWorker,
-				Image = "rbxassetid://4335482575",
+				Image = "rbxassetid://78898298300077",
 				Time = 5
 			})  
 			while isWorkerAutofarmEnabled do
@@ -1636,7 +1636,7 @@ Tab:AddToggle({
 
 local Tab = Window:MakeTab({
     Name = "军事大亨",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1661,7 +1661,7 @@ task.spawn(
 
 local Tab = Window:MakeTab({
     Name = "节日大亨",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
@@ -1677,7 +1677,7 @@ Tab:AddTextbox({
 
 local Tab = Window:MakeTab({
     Name = "被超快速的墙碾碎",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://78898298300077",
     PremiumOnly = false
 
 })
