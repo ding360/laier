@@ -75,12 +75,12 @@ local Mouse = Player:GetMouse()
 
 local msg = Instance.new("Message",workspace)
 msg.Text = "欢迎使用钉脚本"
-msg.Text = "免费！倒卖者我操你妈！！！"
+msg.Text = "使用剑猫源码"
 wait(1.8)
 msg:Destroy()
 
 local msg = Instance.new("Message",workspace)
-msg.Text = "作者:你好 支持60款游戏"
+msg.Text = "剑猫内核 支持60款游戏"
 wait(1.8)
 msg:Destroy()
 
@@ -131,10 +131,8 @@ local Window = OrionLib:MakeWindow({Name = "钉脚本", IntroIcon = "rbxassetid:
 
 local about = Window:MakeTab({
     Name = "公告",
-    Icon = "rbxassetid://4335482575",
-    PremiumOnly = false
-
-})
+    Icon = "rbxassetid://78898298300077",
+    PremiumOnly = false})
 
 about:AddParagraph("作者: 抄的")
 about:AddParagraph("副作者: 抄的")
@@ -142,7 +140,7 @@ about:AddParagraph("制作者: 抄的")
 
 local Tab = Window:MakeTab({
     Name = "通用功能",
-    Icon = "rbxassetid://4335482575",
+    Icon = "rbxassetid://14091262457",
     PremiumOnly = false
 
 })
@@ -411,7 +409,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "火箭发射",
+	Name = "火箭发射模拟器",
 	Callback = function()
 	loadstring(game:HttpGet("https://pastefy.app/CMW6b0kZ/raw"))()
 	end
@@ -432,7 +430,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "感染力微笑",
+	Name = "感染性微笑",
 	Callback = function()
 	loadstring(game:HttpGet("https://pastefy.app/z8mDJJIX/raw"))()
 	end
